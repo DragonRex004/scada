@@ -1,4 +1,4 @@
-local base = "https://github.com/DragonRex004/scada/blob/main/"
+local base = "https://raw.githubusercontent.com/DragonRex004/scada/main/"
 local files = { "main.lua","startup.lua","config.lua","lib/ui.lua","lib/energy.lua" }
 
 for _, file in ipairs(files) do
