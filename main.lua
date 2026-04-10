@@ -25,7 +25,7 @@ while true do
 
     -- Titel
     termTarget.setTextColor(colors.cyan)
-    ui.center(termTarget, 1, "⚡ POWER GRID")
+    ui.center(termTarget, 1, "POWER GRID")
 
     -- Werte
     termTarget.setTextColor(colors.white)
