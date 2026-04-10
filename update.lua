@@ -1,5 +1,4 @@
-local base = "https://raw.githubusercontent.com/DragonRex004/scada/main/"
-
+local base = "https://github.com/DragonRex004/scada/blob/main/"
 local files = {
     "main.lua",
     "startup.lua",
