@@ -6,7 +6,7 @@ local energy = energyLib.wrap(config.energySide)
 if not energy then error("Kein Energy Peripheral!") end
 
 local monitor = config.monitor and peripheral.find("monitor")
-if monitor then monitor.setTextScale(0.5) end
+if monitor then monitor.setTextScale(2) end
 
 local termTarget = monitor or term
 
